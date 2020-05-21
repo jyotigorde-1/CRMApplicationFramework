@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-21T04:58:28 PDT" name="Suite" finished-at="2020-05-21T05:00:10 PDT" duration-ms="102303">
+    <groups>
+    </groups>
+    <test started-at="2020-05-21T04:58:28 PDT" name="ChromeTest" finished-at="2020-05-21T05:00:10 PDT" duration-ms="102303">
+      <class name="CRMTests.CRMDashboardCreateEventTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T04:58:28 PDT" name="launchBrowser" finished-at="2020-05-21T04:59:05 PDT" duration-ms="36969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createServiceRequest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T04:59:05 PDT" name="createServiceRequest" data-provider="dataToServiceRequestCreate" finished-at="2020-05-21T05:00:09 PDT" duration-ms="64905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Service Request]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emergency]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kione]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Finch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9850025668]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jyotig@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8:30]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9:00]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sitka Meadows]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[UM test 01]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SR-Fire/Injury-Sitka]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Backyard]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Entry Notes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Service Notes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createServiceRequest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T05:00:10 PDT" name="driverClose" finished-at="2020-05-21T05:00:10 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- CRMTests.CRMDashboardCreateEventTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

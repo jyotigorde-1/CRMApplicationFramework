@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+     	<listener class-name="CRMUtil.Listener"></listener>
+         <listener class-name="CRMUtil.ExtentReporterNG"/>       
+ </listeners>
+  <test name="ChromeTest">  
+    <classes>
+      <!--<class name="CRMTests.CRMLoginTests"/>-->
+     <class name="CRMTests.CRMDashboardCreateEventTest"/> 
+    </classes>  
+  
+  </test> <!-- Test -->     
+</suite> <!-- Suite -->
