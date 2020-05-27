@@ -10,7 +10,7 @@
       <class name="CRMTests.CRMDashboardCreateEventTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="createServiceRequest" invocation-numbers="0"/>
+          <include name="createPersonalEventForAnotherAgent" invocation-numbers="0"/>
           <include name="driverClose"/>
         </methods>
       </class> <!-- CRMTests.CRMDashboardCreateEventTest -->

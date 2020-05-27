@@ -1,98 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-21T04:58:28 PDT" name="Suite" finished-at="2020-05-21T05:00:10 PDT" duration-ms="102303">
+  <suite started-at="2020-05-27T00:42:26 PDT" name="Suite" finished-at="2020-05-27T00:44:15 PDT" duration-ms="108618">
     <groups>
     </groups>
-    <test started-at="2020-05-21T04:58:28 PDT" name="ChromeTest" finished-at="2020-05-21T05:00:10 PDT" duration-ms="102303">
+    <test started-at="2020-05-27T00:42:26 PDT" name="ChromeTest" finished-at="2020-05-27T00:44:15 PDT" duration-ms="108618">
       <class name="CRMTests.CRMDashboardCreateEventTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T04:58:28 PDT" name="launchBrowser" finished-at="2020-05-21T04:59:05 PDT" duration-ms="36969" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@4efbca5a]" started-at="2020-05-27T00:42:26 PDT" name="launchBrowser" finished-at="2020-05-27T00:43:08 PDT" duration-ms="41252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="createServiceRequest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T04:59:05 PDT" name="createServiceRequest" data-provider="dataToServiceRequestCreate" finished-at="2020-05-21T05:00:09 PDT" duration-ms="64905" status="PASS">
+        <test-method signature="createPersonalEventForAnotherAgent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@4efbca5a]" started-at="2020-05-27T00:43:08 PDT" name="createPersonalEventForAnotherAgent" data-provider="dataToPersonalEventForAnotherAgent" finished-at="2020-05-27T00:44:15 PDT" duration-ms="66976" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Service Request]]>
+                <![CDATA[Personal Event]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Emergency]]>
+                <![CDATA[30]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Kione]]>
+                <![CDATA[12:30 p.m.]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Finch]]>
+                <![CDATA[1:00 p.m.]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[9850025668]]>
+                <![CDATA[Another Agent Test Personal Event]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[jyotig@gmail.com]]>
+                <![CDATA[Personal Event Testing]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[Phone]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[8:30]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[9:00]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Sitka Meadows]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[UM test 01]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[SR-Fire/Injury-Sitka]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[Backyard]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[Entry Notes]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[Service Notes]]>
+                <![CDATA[Jyoti Gorde]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createServiceRequest -->
-        <test-method is-config="true" signature="driverClose()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@158d2680]" started-at="2020-05-21T05:00:10 PDT" name="driverClose" finished-at="2020-05-21T05:00:10 PDT" duration-ms="1" status="PASS">
+        </test-method> <!-- createPersonalEventForAnotherAgent -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:CRMTests.CRMDashboardCreateEventTest@4efbca5a]" started-at="2020-05-27T00:44:15 PDT" name="driverClose" finished-at="2020-05-27T00:44:15 PDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
